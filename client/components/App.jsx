@@ -9,7 +9,9 @@ class App extends React.Component {
   render () {
     return (
     <div>
-      <h1> My Local</h1>
+      <div className='header'>
+        <h1 className='header__title'>My Local</h1>
+      </div>
     </div>
     )
   }
